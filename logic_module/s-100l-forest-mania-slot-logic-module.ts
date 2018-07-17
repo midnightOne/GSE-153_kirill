@@ -18,10 +18,6 @@ module Slot.LogicModule {
 			super(name);
 		}
 
-		registerViews() {
-			super.registerViews();
-		}
-
 		registerMediators() {
 			super.registerMediators();
 		}
