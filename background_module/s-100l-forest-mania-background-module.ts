@@ -20,13 +20,5 @@ module Slot.BackgroundModule {
             this.addMediator(S100LForestManiaAnimatedBackgroundMediator, 'S100LForestManiaAnimatedBackgroundView');
         }
 
-        registerViews() {
-            super.registerViews();
-            this.addView("S100LForestManiaAnimatedBackgroundView",
-                [S100LForestManiaAnimatedBackgroundView, S100LForestManiaAnimatedBackgroundView, null]);
-
-            this.replaceView("HTMLBackground",S100LBackgroundMobileViewPixi,1);
-            //S100LBackgroundMobileViewPixi
-        }
     }
 }
