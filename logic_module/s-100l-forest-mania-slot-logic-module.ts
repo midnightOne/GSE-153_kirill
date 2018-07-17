@@ -18,19 +18,6 @@ module Slot.LogicModule {
 			super(name);
 		}
 
-		/**
-		 * @inheritDoc
-		 */
-		registerCommands() {
-			super.registerCommands();
-			//initialize
-			this.replaceCommand(Notifications.Global.INITIALIZE_MODULE, S100LForestManiaInitializeSlotLogicModuleCommand);
-		}
-
-		registerProxies() {
-			super.registerProxies();
-		}
-
 		registerViews() {
 			super.registerViews();
 		}
