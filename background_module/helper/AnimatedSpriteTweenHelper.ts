@@ -11,6 +11,12 @@ module Slot.BackgroundModule {
 		private _frame:number;
 		private _progress:number=0;
 		private _animation:AnimatedSprite;
+		private _animation2:AnimatedSprite;
+		private _animation3:AnimatedSprite;
+		private _animation4:AnimatedSprite;
+		private _animation5:AnimatedSprite;
+		private _animation6:AnimatedSprite;
+		private _animation7:AnimatedSprite;
 		//private totalFrames:number;
 
 		constructor(animation:AnimatedSprite){
